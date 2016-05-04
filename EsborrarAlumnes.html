@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/PrincipalCSS.css" />
+	<script src="javascript/jquery.min.js"></script>
+	<script src="javascript/TabJS.js" ></script>
+	<meta charset="UTF-8">
+	<title>Esborrar Alumnes</title>
+</head>
+<body>
+	<form id="Esborraralumne" action="Esborraralumne" method="post">
+		<p>Curs <input type="text" name="curs" value=""></p><!--  desplegable -->
+		<p><select id="buscar" name="buscar">
+			  <option value="" selected="selected">- selecciona -</option>
+			  <option value="dni">DNI</option>
+			  <option value="targeta_sanitaria">Targeta Sanitaria</option>
+			  <option value="nom">Nom</option>
+			  <option value="cognom">Cognom</option>
+			  <option value="curs">Curs</option>
+			  <option value="telèfon">telèfon</option>
+			  <option value="telèfon">Mòbil</option>
+			</select> <input type="text" name="buscar1" value=""></p><!--  desplegable -->
+        <p class="submit"><input type="submit" name="commit" value="Esborrar"></p>
+	</form> 
+</html>
