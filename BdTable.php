@@ -1,7 +1,4 @@
 <?php
-function tablenew() {
-	echo "<div class='Curs1' id='ESO1'><table><tr><th>DNI</th><th>Nom</th><th>Cognom</th><th>Edat</th></tr><tr><td>55555555S</td><td>dasdasd</td><td>Psdasdasd</td><td>23</td></tr><tr><td>66666666O</td><td>Keasdas</td><td>Anaasdsdas</td><td>22</td></tr></table></div>";
-}
 
 ?>
 <html>
@@ -13,6 +10,72 @@ function tablenew() {
 </head>
 <body>
 	<div class="Curs1" id="ESO1">
+		<table>
+			<tr>
+				<th>DNI</th>
+				<th>Nom</th>
+				<th>Cognom</th>
+				<th>Edat</th>
+			</tr>
+			<tr>
+				<td>55555555S</td>
+				<td>Jesús</td>
+				<td>Pampín</td>
+				<td>23</td>
+			</tr>
+			<tr>
+				<td>66666666O</td>
+				<td>Kevin</td>
+				<td>Anaya</td>
+				<td>22</td>
+			</tr>
+		</table>
+	</div>
+	<div class="Curs2" id="ESO2">
+		<table>
+			<tr>
+				<th>DNI</th>
+				<th>Nom</th>
+				<th>Cognom</th>
+				<th>Edat</th>
+			</tr>
+			<tr>
+				<td>77777777S</td>
+				<td>Adrian</td>
+				<td>Boluda</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>11111111P</td>
+				<td>Iana</td>
+				<td>Amigo</td>
+				<td>20</td>
+			</tr>
+		</table>
+	</div>
+	<div class="Curs3" id="ESO3">
+		<table>
+			<tr>
+				<th>DNI</th>
+				<th>Nom</th>
+				<th>Cognom</th>
+				<th>Edat</th>
+			</tr>
+			<tr>
+				<td>55555555S</td>
+				<td>Jesús</td>
+				<td>Pampín</td>
+				<td>23</td>
+			</tr>
+			<tr>
+				<td>66666666O</td>
+				<td>Kevin</td>
+				<td>Anaya</td>
+				<td>22</td>
+			</tr>
+		</table>
+	</div>
+	<div class="Curs4" id="ESO4">
 		<table>
 			<tr>
 				<th>DNI</th>
